@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "inter", sans-serif;
+}
+body {
+  background: rgb(255, 253, 240);
+}
+.header {
+  height: 50px;
+  padding: 10px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+.top-searchbar {
+  height: 30px;
+}
+.header-side-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+.header-item {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.login {
+  background: url(https://img.icons8.com/puffy/64/test-account.png);
+  background-size: cover;
+}
+.header-item:hover .login {
+  background: url(https://img.icons8.com/puffy-filled/64/000000/test-account.png);
+  background-size: cover;
+}
+.cart {
+  background: url(https://img.icons8.com/fluency-systems-regular/96/000000/shopping-cart--v1.png);
+  background-size: cover;
+}
+.header-item:hover .cart {
+  background: url(https://img.icons8.com/fluency-systems-filled/96/000000/shopping-cart.png);
+  background-size: cover;
+}
+.seller {
+  background: url(https://img.icons8.com/fluency-systems-regular/96/000000/shop.png);
+  background-size: cover;
+}
+.header-item:hover .seller {
+  background: url(https://img.icons8.com/fluency-systems-filled/96/000000/shop.png);
+  background-size: cover;
+}
