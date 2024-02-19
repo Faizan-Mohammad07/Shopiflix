@@ -1,0 +1,35 @@
+.navbar {
+  margin: 10px;
+  background: rgb(235, 207, 173);
+  padding: 10px;
+  height: 20px;
+  display: flex;
+}
+.nav-dropdown {
+  width: 150px;
+}
+.nav-dropdown-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-dropdown-content {
+  display: none;
+  padding: 5px 0;
+  background: rgb(255, 223, 180);
+}
+.nav-dropdown:hover .nav-dropdown-content {
+  display: block;
+  border: 1px solid burlywood;
+  border-radius: 0 0 5px 5px;
+}
+.nav-dropdown:hover .nav-dropdown-title {
+  background: burlywood;
+  border-radius: 5px 5px 0 0;
+}
+.nav-dropdown-item {
+  padding: 0 5px;
+}
+.nav-dropdown-item:hover {
+  background: rgba(0, 0, 0, 0.115);
+}
