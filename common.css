@@ -5,7 +5,7 @@
   font-family: "inter", sans-serif;
 }
 body {
-  background: rgb(255, 253, 240);
+  background: rgb(195, 207, 206);
 }
 .header {
   height: 50px;
@@ -13,14 +13,24 @@ body {
   background: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+input {
+  outline-style: none;
 }
 .top-searchbar {
   height: 30px;
+  width: 300px;
+  padding: 2px;
 }
 .header-side-icon {
   height: 30px;
   width: 30px;
   margin-right: 5px;
+}
+.header-list {
+  margin-right: 25px;
+  display: flex;
 }
 .header-item {
   margin: 0 10px;

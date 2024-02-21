@@ -1,6 +1,6 @@
 .navbar {
   margin: 10px;
-  background: rgb(235, 207, 173);
+  background: rgb(235, 220, 202);
   padding: 10px;
   height: 20px;
   display: flex;
@@ -8,7 +8,8 @@
 .nav-dropdown {
   width: 150px;
 }
-.nav-dropdown-title {
+.nav-dropdown-title,
+.nav-title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +17,7 @@
 .nav-dropdown-content {
   display: none;
   padding: 5px 0;
-  background: rgb(255, 223, 180);
+  background: rgb(235, 220, 202);
 }
 .nav-dropdown:hover .nav-dropdown-content {
   display: block;
@@ -29,7 +30,41 @@
 }
 .nav-dropdown-item {
   padding: 0 5px;
+  display: flex;
+  height: 20px;
 }
 .nav-dropdown-item:hover {
   background: rgba(0, 0, 0, 0.115);
+}
+.trend {
+  display: flex;
+}
+.card {
+  margin: 15px;
+  width: 250px;
+  height: 350px;
+  background: chartreuse;
+  border-radius: 25px;
+}
+.card-pic {
+  height: 260px;
+  width: 230px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.card-option {
+  height: 40px;
+  width: 40px;
+  background: wheat;
+  margin: 5px;
+}
+.card-pic > div {
+  display: flex;
+  bottom: 10px;
+  position: absolute;
+  height: max-content;
 }
