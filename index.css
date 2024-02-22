@@ -7,6 +7,7 @@
 }
 .nav-dropdown {
   width: 150px;
+  z-index: 1;
 }
 .nav-dropdown-title,
 .nav-title {
@@ -57,8 +58,8 @@
   position: relative;
 }
 .card-option {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   background: wheat;
   margin: 5px;
 }
@@ -67,4 +68,33 @@
   bottom: 10px;
   position: absolute;
   height: max-content;
+  display: none;
+}
+.card:hover .card-pic > div {
+  display: block;
+}
+.card-star {
+  background: url(https://img.icons8.com/fluency-systems-regular/96/000000/star--v1.png);
+  background-size: cover;
+}
+.card-add-to-cart {
+  background: url(https://img.icons8.com/fluency-systems-regular/96/000000/add-shopping-cart.png);
+  background-size: cover;
+}
+.card-not-intrested {
+  background: url(https://img.icons8.com/fluency-systems-regular/96/000000/thumbs-down.png);
+  background-size: cover;
+}
+.card-details > div {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-name {
+  margin-top: 5px;
+  font-size: larger;
+}
+.item-price {
+  font-weight: 600;
 }
