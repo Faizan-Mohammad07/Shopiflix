@@ -39,12 +39,14 @@
 }
 .trend {
   display: flex;
+  margin: 0 150px;
+  justify-content: space-between;
 }
 .card {
   margin: 15px;
   width: 250px;
   height: 350px;
-  background: chartreuse;
+  background: rgb(210, 174, 56);
   border-radius: 25px;
 }
 .card-pic {
@@ -74,15 +76,15 @@
   display: block;
 }
 .card-star {
-  background: url(https://img.icons8.com/fluency-systems-regular/96/000000/star--v1.png);
+  background: url(https://img.icons8.com/fluency-systems-regular/96/474747/star--v1.png);
   background-size: cover;
 }
 .card-add-to-cart {
-  background: url(https://img.icons8.com/fluency-systems-regular/96/000000/add-shopping-cart.png);
+  background: url(https://img.icons8.com/fluency-systems-regular/96/474747/add-shopping-cart.png);
   background-size: cover;
 }
 .card-not-intrested {
-  background: url(https://img.icons8.com/fluency-systems-regular/96/000000/thumbs-down.png);
+  background: url(https://img.icons8.com/fluency-systems-regular/96/474747/thumbs-down.png);
   background-size: cover;
 }
 .card-details > div {
@@ -97,4 +99,53 @@
 }
 .item-price {
   font-weight: 600;
+  color: rgb(9, 106, 0);
+}
+.card-pic-01 {
+  background: url(https://img.freepik.com/free-vector/headphones-wireless-realistic-composition-with-isolated-image-phones-with-power-bank-dock-station-with-reflections-vector-illustration_1284-73201.jpg?t=st=1708702277~exp=1708705877~hmac=9befc738f160fcf37d199a93ff4cd363d12dfb78069012a0bfd4f190d2a1cf81&w=740);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-pic-02 {
+  background: url(https://img.freepik.com/free-photo/close-up-futuristic-sneakers_23-2151005666.jpg?t=st=1708703134~exp=1708706734~hmac=1cca589f12ee570509ef4f43e9b3c0ffda3122f522b8d3342881b25b0dd7e8a1&w=360);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-pic-03 {
+  background: url(https://img.freepik.com/free-photo/panoramic-technology-banner-with-electronic-devices_23-2151215009.jpg?t=st=1708703665~exp=1708707265~hmac=8d2285fa0dc47a06fae9eff71fe27ccf2169291cfcaf91d2c9578c8966f046b2&w=360);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-pic-04 {
+  background: url(https://img.freepik.com/free-photo/headphones-balancing-with-blue-background_23-2150271756.jpg?t=st=1708702986~exp=1708706586~hmac=8843d40c97e26d65d1e32381b871d874c2de983b85059c058fd8b30c0035becf&w=740);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-pic-05 {
+  background: url(https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039303.jpg?t=st=1708704336~exp=1708707936~hmac=d7a85f267e5166cb19f0c6f48b46091666a9f435bb3ea19b8f39fcdebfd41ad7&w=360);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-pic-06 {
+  background: url(https://img.freepik.com/free-photo/view-electronic-product-balancing-podium_23-2150141323.jpg?t=st=1708704498~exp=1708708098~hmac=5d98287a884be06a69d932e60371c5d82bbff2b4a49cb02174c32e2d6b36a4b1&w=740);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-pic-07 {
+  background: url(https://img.freepik.com/free-vector/flat-minimalist-support-small-business-t-shirt_742173-10802.jpg?t=st=1708704645~exp=1708708245~hmac=a9cc70744c70f50abbace110ea8617b93fe2e216d0e9405ce920d59da43c1005&w=360);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-pic-08 {
+  background: url(https://img.freepik.com/free-photo/beauty-color-leather-texture-elegance_1203-6500.jpg?t=st=1708704894~exp=1708708494~hmac=0b2bec51e8d3a0263ee386006d4e653162a1e2bbada92fc29ae7df4781ced339&w=360);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

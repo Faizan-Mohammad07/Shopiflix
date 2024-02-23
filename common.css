@@ -6,11 +6,15 @@
 }
 body {
   background: rgb(195, 207, 206);
+  overscroll-behavior: none;
 }
 .header {
+  top: 0;
+  position: sticky;
+  z-index: 2;
   height: 50px;
   padding: 10px;
-  background: white;
+  background: rgb(255, 253, 249);
   display: flex;
   align-items: center;
   justify-content: space-between;
