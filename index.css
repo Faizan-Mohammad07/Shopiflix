@@ -1,9 +1,13 @@
+::-webkit-scrollbar {
+  display: none;
+}
 .navbar {
   margin: 10px;
   background: rgb(235, 220, 202);
-  padding: 10px;
-  height: 20px;
+  padding: 0 10px 10px 10px;
+  height: 90px;
   display: flex;
+  justify-content: space-between;
 }
 .nav-dropdown {
   width: 150px;
@@ -14,6 +18,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.nav-pic {
+  display: flex;
+  justify-content: center;
+}
+.dropdown-icon {
+  height: 24px;
+  width: 24px;
+  background: url(https://img.icons8.com/material-rounded/96/000000/expand-arrow--v1.png);
+  background-size: cover;
+}
+.nav-dropdown:hover .nav-dropdown-title {
+  color: #096a00;
+}
+.nav-dropdown:hover .dropdown-icon {
+  background: url(https://img.icons8.com/material-rounded/96/096A00/expand-arrow--v1.png);
+  background-size: cover;
+  rotate: 180deg;
+  transition: 0.2s;
 }
 .nav-dropdown-content {
   display: none;
@@ -99,7 +122,7 @@
 }
 .item-price {
   font-weight: 600;
-  color: rgb(9, 106, 0);
+  color: #096a00;
 }
 .card-pic-01 {
   background: url(https://img.freepik.com/free-vector/headphones-wireless-realistic-composition-with-isolated-image-phones-with-power-bank-dock-station-with-reflections-vector-illustration_1284-73201.jpg?t=st=1708702277~exp=1708705877~hmac=9befc738f160fcf37d199a93ff4cd363d12dfb78069012a0bfd4f190d2a1cf81&w=740);
