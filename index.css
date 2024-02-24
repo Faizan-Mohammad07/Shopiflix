@@ -29,7 +29,8 @@
   background: url(https://img.icons8.com/material-rounded/96/000000/expand-arrow--v1.png);
   background-size: cover;
 }
-.nav-dropdown:hover .nav-dropdown-title {
+.nav-dropdown:hover .nav-dropdown-title,
+.nav-dropdown:hover .nav-title {
   color: #096a00;
 }
 .nav-dropdown:hover .dropdown-icon {
@@ -47,10 +48,6 @@
   display: block;
   border: 1px solid burlywood;
   border-radius: 0 0 5px 5px;
-}
-.nav-dropdown:hover .nav-dropdown-title {
-  background: burlywood;
-  border-radius: 5px 5px 0 0;
 }
 .nav-dropdown-item {
   padding: 0 5px;
@@ -171,4 +168,52 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.best-of {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 2px;
+  background: white;
+}
+.best-of-display {
+  height: 300px;
+  border: 1px solid #096a0034;
+  border-radius: 3px;
+}
+.preview-display {
+  height: auto;
+  width: 100%;
+  border-radius: 2px;
+}
+.best-of-title {
+  padding: 10px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.display-box {
+  display: flex;
+  justify-content: space-between;
+}
+.display-pic {
+  width: 200px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+}
+.display-details {
+  padding: 20px 5px 10px 5px;
+}
+.display-title {
+  font-size: 14px;
+}
+.display-price {
+  font-weight: 600;
+  color: #096a00;
+}
+.display-title,
+.display-price {
+  min-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
