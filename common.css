@@ -7,6 +7,7 @@
 body {
   background: rgb(217, 231, 229);
   overscroll-behavior: none;
+  color: rgb(40, 40, 40);
 }
 .header {
   top: 0;
@@ -67,5 +68,15 @@ input {
 }
 .header-item:hover .seller {
   background: url(https://img.icons8.com/fluency-systems-filled/96/000000/shop.png);
+  background-size: cover;
+}
+.more-icon {
+  height: 30px;
+  width: 30px;
+  background: url(https://img.icons8.com/sf-black-filled/64/000000/right-squared.png);
+  background-size: cover;
+}
+.more-icon:hover {
+  background: url(https://img.icons8.com/sf-black-filled/64/096a00/right-squared.png);
   background-size: cover;
 }

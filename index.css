@@ -55,7 +55,8 @@
   height: 20px;
 }
 .nav-dropdown-item:hover {
-  background: rgba(0, 0, 0, 0.115);
+  background: rgba(210, 197, 181, 0.327);
+  color: #096a00;
 }
 .trend {
   display: flex;
@@ -66,7 +67,7 @@
   margin: 15px;
   width: 250px;
   height: 350px;
-  background: rgb(210, 174, 56);
+  background: rgba(210, 174, 56, 0.789);
   border-radius: 25px;
 }
 .card-pic {
@@ -95,16 +96,22 @@
 .card:hover .card-pic > div {
   display: block;
 }
+.card-pic > div > div {
+  padding: 2px 0;
+  background: #ffffff57;
+  border-radius: 5px;
+  backdrop-filter: blur(5px);
+}
 .card-star {
-  background: url(https://img.icons8.com/fluency-systems-regular/96/474747/star--v1.png);
+  background: url(https://img.icons8.com/fluency-systems-regular/96/202020/star--v1.png);
   background-size: cover;
 }
 .card-add-to-cart {
-  background: url(https://img.icons8.com/fluency-systems-regular/96/474747/add-shopping-cart.png);
+  background: url(https://img.icons8.com/fluency-systems-regular/96/202020/add-shopping-cart.png);
   background-size: cover;
 }
 .card-not-intrested {
-  background: url(https://img.icons8.com/fluency-systems-regular/96/474747/thumbs-down.png);
+  background: url(https://img.icons8.com/fluency-systems-regular/96/202020/thumbs-down.png);
   background-size: cover;
 }
 .card-details > div {
@@ -169,13 +176,15 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.best-of {
+.best-of,
+.top-brands {
   margin: 10px;
   padding: 15px;
   border-radius: 2px;
   background: white;
 }
 .best-of-display {
+  margin: 0 7px;
   height: 300px;
   border: 1px solid #096a0034;
   border-radius: 3px;
@@ -186,11 +195,18 @@
   border-radius: 2px;
 }
 .best-of-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.best-of-title,
+.top-brands-title {
   padding: 10px;
   padding-bottom: 30px;
   font-size: 20px;
 }
 .display-box {
+  overflow-x: scroll;
   display: flex;
   justify-content: space-between;
 }
@@ -216,4 +232,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.top-brands-title {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+.top-brands-box {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-brands-logo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+.top-brands-pic {
+  height: auto;
+  width: 100%;
 }
