@@ -88,11 +88,32 @@ input {
 }
 .aside-ads {
   display: flex;
-  margin: 10px;
-  height: 700px;
-  width: 700px;
+  height: 720px;
+  width: 720px;
+  border-radius: 2px;
 }
 .ad-01 {
   background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4963c483304265.5d38bc944b9e8.jpg);
   background-size: cover;
+}
+.open-page-icon {
+  margin-left: 175px;
+  height: 24px;
+  width: 24px;
+  background: #096a00;
+  background-image: url(https://cdn.icon-icons.com/icons2/1674/PNG/512/diagonalarrowleftup_110964.png);
+  background-size: cover;
+  transform: rotate(90deg);
+  border-radius: 5px;
+}
+.explore-button {
+  padding: 5px 10px;
+  margin: 500px 0 0 200px;
+  height: fit-content;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.453);
+  backdrop-filter: blur(10px);
+  color: rgba(0, 0, 0, 0.736);
+  font-size: 20px;
+  font-weight: 700;
 }
