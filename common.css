@@ -63,11 +63,11 @@ input {
   background-size: cover;
 }
 .seller {
-  background: url(https://img.icons8.com/fluency-systems-regular/96/000000/shop.png);
+  background: url(https://img.icons8.com/material-outlined/96/000000/shopping-bag--v1.png);
   background-size: cover;
 }
 .header-item:hover .seller {
-  background: url(https://img.icons8.com/fluency-systems-filled/96/000000/shop.png);
+  background: url(https://img.icons8.com/material-rounded/96/000000/shopping-bag.png);
   background-size: cover;
 }
 .more-icon {
@@ -107,13 +107,71 @@ input {
   border-radius: 5px;
 }
 .explore-button {
-  padding: 5px 10px;
+  padding: 10px 15px;
   margin: 500px 0 0 200px;
   height: fit-content;
   border-radius: 5px;
-  background: rgba(255, 255, 255, 0.453);
+  background: rgba(255, 255, 255, 0.553);
   backdrop-filter: blur(10px);
-  color: rgba(0, 0, 0, 0.736);
+  color: #232323;
   font-size: 20px;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.explore-button:hover,
+.open-page-icon:hover {
+  cursor: pointer;
+}
+.explore-button > div {
+  margin-left: 5px;
+  height: 24px;
+  width: 24px;
+}
+.explore-button > div > img {
+  height: 100%;
+  width: 100%;
+}
+.footer {
+  padding: 20px 20% 40px 20%;
+  background: rgb(235, 220, 202);
+  display: flex;
+  justify-content: space-between;
+}
+.footer-col-title {
+  margin: 30px 0 15px 0;
+  color: rgba(49, 49, 49, 0.793);
+  font-weight: 700;
+}
+.footer-col-containt {
+  margin-bottom: 5px;
+  color: rgb(45, 45, 45);
+  font-weight: 200;
+  font-size: small;
+}
+.footer-col-containt:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.copyright {
+  padding: 20px 10%;
+  background: #186910;
+  display: flex;
+  justify-content: space-between;
+  color: #f8fff7;
+}
+.copyright-content {
+  height: 16px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.copyright-content:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.copyright-pic {
+  margin-right: 5px;
+  height: 18px;
+  width: auto;
 }
