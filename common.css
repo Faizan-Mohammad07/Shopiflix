@@ -92,8 +92,18 @@ input {
   width: 720px;
   border-radius: 2px;
 }
+.aside-ads-1col {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  border-radius: 2px;
+}
 .ad-01 {
   background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4963c483304265.5d38bc944b9e8.jpg);
+  background-size: cover;
+}
+.ad-02 {
+  background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/73c28679556171.5cc71572ed06c.jpg);
   background-size: cover;
 }
 .open-page-icon {
@@ -108,7 +118,7 @@ input {
 }
 .explore-button {
   padding: 10px 15px;
-  margin: 500px 0 0 200px;
+  margin: 70% 0 0 20%;
   height: fit-content;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.553);

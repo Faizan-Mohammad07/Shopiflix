@@ -377,3 +377,18 @@
 .gap {
   margin: 15px;
 }
+.for-you-1-col {
+  padding: 15px;
+  width: 1070px;
+  border-radius: 2px;
+  background: white;
+}
+.best-of-display:hover,
+.top-brands-logo:hover,
+.top-brands-title:hover,
+.best-of-title:hover,
+.card-details,
+.card-option,
+.spot-item-card-desc > div:hover {
+  cursor: pointer;
+}
