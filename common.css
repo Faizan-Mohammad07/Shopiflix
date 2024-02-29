@@ -93,7 +93,7 @@ input {
 }
 .navbar {
   margin: 10px;
-  background: rgb(235, 220, 202);
+  background: #ead0b1;
   padding: 0 10px 10px 10px;
   height: 90px;
   display: flex;
@@ -216,7 +216,7 @@ input {
 }
 .footer {
   padding: 20px 20% 40px 20%;
-  background: rgb(235, 220, 202);
+  background: #ead0b1;
   display: flex;
   justify-content: space-between;
 }

@@ -1,3 +1,47 @@
+.spot-body {
+  display: flex;
+}
+.sidebar {
+  margin: 10px;
+  color: #272727;
+}
+.sidebar-title {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.sidebar-items {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+.sidebar-left-icon {
+  height: 14px;
+  width: auto;
+}
 .spot-box {
+  margin: 10px;
   padding: 10px;
+  background: white;
+  border-radius: 2px;
+}
+.spot-box-title {
+  margin: 0 0 10px 0;
+  padding: 5px;
+  display: flex;
+}
+.on-spot-items-box {
+  margin: 5px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.on-spot-items {
+  padding: 5px;
+}
+.on-spot-pic {
+  height: auto;
+  width: 375px;
 }
