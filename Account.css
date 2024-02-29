@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "inter", sans-serif;
+}
+.Shopiflix {
+  margin: 20px 40% 10px 40%;
+  padding: 5px;
+  color: #096a00;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.account-box {
+  margin: 0 35%;
+  padding: 20px;
+  border: 1px solid #c3c3c3;
+  border-radius: 10px;
+}
+.account-header {
+  color: #272727;
+  font-size: 28px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+.account-title {
+  margin: 20px 0 5px 0;
+  color: #272727;
+  font-size: 12px;
+  font-weight: 600;
+}
+.account-input {
+  padding: 5px;
+  width: 402px;
+  height: 24px;
+  border: 1px solid #909090;
+  border-radius: 3px;
+}

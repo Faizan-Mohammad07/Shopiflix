@@ -57,6 +57,9 @@
   height: auto;
   width: 80%;
 }
+.on-spot-pic:hover {
+  opacity: 80%;
+}
 .on-spot-item-name {
   margin-bottom: 10px;
   font-size: 18px;
