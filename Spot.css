@@ -27,21 +27,60 @@
   border-radius: 2px;
 }
 .spot-box-title {
-  margin: 0 0 10px 0;
+  margin: 0 0 50px 0;
   padding: 5px;
+  color: #096a00;
+  font-weight: 600;
+  font-size: 24px;
   display: flex;
+  justify-content: center;
 }
 .on-spot-items-box {
   margin: 5px;
   padding: 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 .on-spot-items {
+  margin-bottom: 10px;
   padding: 5px;
 }
 .on-spot-pic {
   height: auto;
   width: 375px;
+  display: flex;
+  justify-content: center;
+}
+.on-spot-pic > img {
+  margin-bottom: 10px;
+  height: auto;
+  width: 80%;
+}
+.on-spot-item-name {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.on-spot-review {
+  margin-bottom: 10px;
+  color: rgb(119, 119, 255);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.on-spot-price {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #096a00;
+}
+.review {
+  margin-right: 5px;
+}
+.review-icon {
+  height: 20px;
+  width: auto;
+}
+.on-spot-adds {
+  width: 300px;
+  font-size: 14px;
 }
