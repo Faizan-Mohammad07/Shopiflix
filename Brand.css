@@ -1,0 +1,87 @@
+body {
+  background: white;
+}
+.brand-banner {
+  margin: 0 10px 10px;
+  height: 300px;
+  background: rgb(238, 238, 238);
+  border: 1px solid rgb(127, 127, 127);
+  border-top: none;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+}
+.brand-banner > img {
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+.brand-label {
+  padding: 0 15px;
+}
+.brand-name-label {
+  padding: 10px 25px;
+  color: rgb(138, 138, 138);
+  font-size: 12px;
+}
+.brand-label-menu {
+  margin-bottom: 10px;
+  padding: 0 20px 15px 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid rgb(188, 188, 188);
+}
+.follow-brand-button {
+  margin-right: 10px;
+  padding: 5px 15px;
+  height: fit-content;
+  font-size: 14px;
+  border: 2px solid rgb(178, 178, 178);
+  border-radius: 3px;
+}
+.brand-share-icon {
+  margin: 0 5px;
+}
+.brand-pic {
+  height: 32px;
+  width: auto;
+}
+.brand-menu {
+  margin: 0 15px;
+  font-size: 14px;
+  display: flex;
+}
+.menu-element {
+  margin: 0 15px;
+  padding: 7px 2px 5px 2px;
+  border-bottom: 3px solid rgba(150, 147, 147, 0);
+}
+.active-menu-element {
+  border-bottom: 3px solid rgba(26, 26, 26, 0.442);
+}
+.menu-element:hover {
+  border-bottom: 3px solid rgba(34, 34, 34, 0.656);
+  transition: 0.2s;
+}
+.brand-search {
+  margin: 0 5px 0 30%;
+  padding: 2px;
+  border: 1px solid rgb(136, 136, 136);
+  border-radius: 7px;
+  display: flex;
+}
+.brand-search > input {
+  margin-left: 10px;
+  padding: 0;
+  width: 260px;
+  font-size: 13px;
+  border: none;
+}
+.brand-tagline {
+  padding: 60px 15px 45px 15px;
+  color: rgb(30, 30, 30);
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
