@@ -4,6 +4,22 @@
   padding: 0;
   font-family: "inter", sans-serif;
 }
+body {
+  overscroll-behavior: none;
+}
+a {
+  color: #096a00;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #096a00;
+}
+.Shopiflix > a {
+  text-decoration: none;
+}
 .Shopiflix {
   margin: 20px 40% 10px 40%;
   padding: 5px;
@@ -14,7 +30,7 @@
   justify-content: center;
 }
 .account-box {
-  margin: 0 35%;
+  margin: 0 35% 20px 35%;
   padding: 20px;
   border: 1px solid #c3c3c3;
   border-radius: 10px;
@@ -38,4 +54,63 @@
   height: 24px;
   border: 1px solid #909090;
   border-radius: 3px;
+  outline: none;
+}
+.account-content {
+  padding-top: 5px;
+  color: #3b3b3b;
+  font-size: 12px;
+}
+.account-content > div {
+  display: flex;
+}
+.account-button {
+  background: #096a00;
+  margin: 15px 0 30px 0;
+  padding: 5px;
+  width: 403px;
+  height: 24px;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.account-button:hover {
+  background: #075600f3;
+}
+.account-hr {
+  margin: 25px 5px 35px 5px;
+}
+.switch {
+  font-size: 14px;
+}
+.account-footer {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(135, 135, 135, 0.086) 50%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  display: flex;
+  justify-content: center;
+}
+.account-footer-element {
+  padding: 20px 0 15px 0;
+  min-width: 300px;
+}
+.account-footer-link {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.account-footer-copyright {
+  margin-top: 15px;
+  padding: 5px;
+  color: #707070;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
 }
