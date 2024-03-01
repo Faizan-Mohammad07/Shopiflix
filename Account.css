@@ -83,6 +83,11 @@ a:visited {
 }
 .account-hr {
   margin: 25px 5px 35px 5px;
+  border: 1px solid;
+  color: #909090;
+}
+.side-hr {
+  width: 150px;
 }
 .switch {
   font-size: 14px;
@@ -106,11 +111,41 @@ a:visited {
   display: flex;
   justify-content: space-between;
 }
-.account-footer-copyright {
+.account-lite-shade {
   margin-top: 15px;
   padding: 5px;
   color: #707070;
   font-size: 12px;
   display: flex;
   justify-content: center;
+}
+.account-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.account-flex > .account-lite-shade,
+.account-flex > .side-hr {
+  margin: 0;
+}
+.switch-button {
+  background: white;
+  color: #272727;
+  margin: 15px 0 30px 0;
+  padding: 5px;
+  width: 449px;
+  height: 24px;
+  font-size: 14px;
+  border: 1px solid #c9c9c9;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.account-flex > a {
+  text-decoration: none;
+}
+.switch-button:hover {
+  background: #e8e8e888;
 }
