@@ -18,6 +18,10 @@ body {
 }
 .brand-label {
   padding: 0 15px;
+  position: sticky;
+  top: 59px;
+  background: white;
+  z-index: 1;
 }
 .brand-name-label {
   padding: 10px 25px;
@@ -40,7 +44,7 @@ body {
   border-radius: 3px;
 }
 .brand-share-icon {
-  margin: 0 5px;
+  margin-left: 5px;
 }
 .brand-pic {
   height: 32px;
@@ -84,4 +88,63 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.home-feed-box {
+  margin: 0 10px;
+}
+.home-feed-section {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-class-banner {
+  width: 49.36%;
+  background: rgb(90, 113, 87);
+}
+.home-class-element {
+  min-height: 400px;
+  width: 24%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.home-class-element:hover {
+  box-shadow: 0 0 10px rgba(43, 43, 43, 0.292);
+  transition: 0.3s;
+}
+.home-class-element-pic {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  opacity: 1;
+  max-width: 70%;
+  max-height: 100%;
+}
+.home-class-pic {
+  position: relative;
+  margin-top: 10px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.home-class-element-details {
+  padding: 10px;
+}
+.element-name {
+  margin-bottom: 10px;
+  color: rgb(48, 48, 48);
+  font-size: 14px;
+}
+.element-price {
+  color: #096a00;
+  font-size: 18px;
+  font-weight: 600;
+}
+.brand-poster {
+  margin: 0 10px 20px;
+}
+.brand-poster-pic {
+  width: 100%;
 }
