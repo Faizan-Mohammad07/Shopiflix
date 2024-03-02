@@ -5,7 +5,7 @@ body {
   margin: 0 10px 10px;
   height: 300px;
   background: rgb(238, 238, 238);
-  border: 1px solid rgb(127, 127, 127);
+  border: 1px solid rgb(203, 203, 203);
   border-top: none;
   border-radius: 2px;
   display: flex;
@@ -42,6 +42,11 @@ body {
   font-size: 14px;
   border: 2px solid rgb(178, 178, 178);
   border-radius: 3px;
+}
+.follow-brand-button:hover {
+  background: rgba(0, 0, 0, 0.049);
+  color: rgb(72, 72, 72);
+  border: 2px solid rgb(228, 228, 228);
 }
 .brand-share-icon {
   margin-left: 5px;
@@ -82,9 +87,10 @@ body {
   border: none;
 }
 .brand-tagline {
+  margin-bottom: 20px;
   padding: 60px 15px 45px 15px;
   color: rgb(30, 30, 30);
-  font-size: 40px;
+  font-size: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +105,30 @@ body {
 }
 .home-class-banner {
   width: 49.36%;
-  background: rgb(90, 113, 87);
+  background: #ead0b1;
+}
+.home-class-banner-title {
+  margin: 150px 0 0 30px;
+  font-size: 50px;
+}
+.home-class-banner-lower {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.home-class-banner-desc {
+  padding: 20px;
+  width: 450px;
+  font-size: 24px;
+  font-weight: 200;
+}
+.shop-now {
+  margin: 20px 20px 0 0;
+  padding: 10px 15px;
+  height: fit-content;
+  background: #096a00;
+  color: white;
+  border-radius: 3px;
 }
 .home-class-element {
   min-height: 400px;
@@ -147,4 +176,28 @@ body {
 }
 .brand-poster-pic {
   width: 100%;
+}
+.share-section {
+  margin: 75px 0 180px 0;
+  padding: 0 40%;
+}
+.share-tag {
+  margin-top: 20px;
+  color: #096a00;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.share-button {
+  padding: 5px 105px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(98, 98, 98, 0.297);
+}
+.share-button:hover {
+  background: rgba(80, 80, 80, 0.068);
 }
