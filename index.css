@@ -1,6 +1,15 @@
 ::-webkit-scrollbar {
   display: none;
 }
+body {
+  background: linear-gradient(
+    to bottom,
+    rgb(217, 231, 229),
+    rgb(232, 217, 209),
+    rgb(215, 255, 215),
+    rgb(184, 184, 214)
+  );
+}
 .trend {
   display: flex;
   margin: 0 5%;

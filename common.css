@@ -5,13 +5,6 @@
   font-family: "inter", sans-serif;
 }
 body {
-  background: linear-gradient(
-    to bottom,
-    rgb(217, 231, 229),
-    rgb(232, 217, 209),
-    rgb(215, 255, 215),
-    rgb(184, 184, 214)
-  );
   overscroll-behavior: none;
   color: rgb(40, 40, 40);
 }
@@ -137,7 +130,7 @@ input {
 }
 .nav-dropdown:hover .nav-dropdown-content {
   display: block;
-  border: 1px solid burlywood;
+  border: 1px solid #deb887;
   border-radius: 0 0 5px 5px;
 }
 .nav-dropdown-item {
@@ -257,4 +250,18 @@ input {
   margin-right: 5px;
   height: 18px;
   width: auto;
+}
+.review {
+  margin-right: 5px;
+}
+.review-icon {
+  height: 20px;
+  width: auto;
+}
+.on-spot-review {
+  margin-bottom: 10px;
+  color: rgb(119, 119, 255);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
 }
