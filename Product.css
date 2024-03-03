@@ -161,3 +161,17 @@ td {
   height: 160px;
   width: auto;
 }
+.similar-item {
+  width: 100%;
+}
+.similar-item-body {
+  background: #7777ff;
+  padding: 10px;
+  overflow-x: scroll;
+  display: flex;
+}
+.similar-item-name {
+  background: #0089b7;
+  font-size: 14px;
+  width: 175px;
+}
