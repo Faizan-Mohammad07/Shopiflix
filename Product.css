@@ -217,3 +217,22 @@ td {
   color: #096a00;
   font-size: 18px;
 }
+.key-features-box {
+  margin: 20px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #44444460;
+}
+.key-features-header {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.key-features-set {
+  margin-bottom: 10px;
+  font-size: 12px;
+  display: flex;
+}
+.key-features-title {
+  margin-right: 5px;
+  font-weight: 600;
+}
