@@ -49,6 +49,11 @@
   margin-bottom: 10px;
   font-size: 20px;
 }
+.product-store-name {
+  margin-bottom: 10px;
+  color: #096a00;
+  font-size: 14px;
+}
 .product-price {
   padding: 5px;
   color: #096a00;
@@ -185,7 +190,7 @@ td {
   transition: 0.2s;
 }
 .similar-item-header {
-  margin-bottom: 10px;
+  margin: 20px 0 10px 0;
   padding: 10px 20px;
   color: #096a00;
   font-size: 20px;
@@ -219,7 +224,7 @@ td {
 }
 .key-features-box {
   margin: 20px;
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   font-size: 14px;
   border: 1px solid #44444460;
 }
@@ -228,11 +233,16 @@ td {
   font-weight: 600;
 }
 .key-features-set {
-  margin-bottom: 10px;
-  font-size: 12px;
   display: flex;
+  align-items: center;
 }
 .key-features-title {
   margin-right: 5px;
   font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.key-features-desc {
+  font-size: 12px;
+  margin-bottom: 10px;
 }
