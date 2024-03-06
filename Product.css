@@ -246,3 +246,82 @@ td {
   font-size: 12px;
   margin-bottom: 10px;
 }
+.rating-tab-header {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 24px;
+  color: #096a00;
+}
+.rating-tab-display {
+  display: flex;
+  align-items: center;
+}
+.rating-tab-title {
+  margin-right: 20px;
+  padding: 10px;
+  width: 120px;
+}
+.rating-tab-rate {
+  margin-bottom: 20px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.rating-tab-details > div {
+  font-size: 14px;
+  color: rgb(132, 132, 132);
+  display: flex;
+  justify-content: center;
+}
+.rating-tab-rate-box {
+  margin: 5px 0;
+  display: flex;
+  align-items: baseline;
+}
+.rating-tab-rate-name {
+  width: 25px;
+  margin-right: 10px;
+}
+.ratebar {
+  height: 11px;
+  width: 200px;
+  background: rgb(217, 217, 217);
+  border-radius: 5px 0 0 5px;
+}
+.rate-load {
+  height: 100%;
+  background: #096a00;
+}
+.lead-specific01 {
+  width: 80%;
+  border-radius: 5px 0 0 5px;
+}
+.rate-number {
+  margin-left: 10px;
+  width: 60px;
+  color: rgb(132, 132, 132);
+  font-size: 12px;
+}
+.chart {
+  height: 60px;
+  width: 60px;
+  padding: 11px;
+  margin: 50px;
+  border-radius: 50%;
+}
+.inner-chart {
+  height: 100%;
+  width: 100%;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.val1 {
+  background-image: conic-gradient(
+    rgb(0, 126, 11) 0% 80%,
+    rgb(217, 217, 217) 80% 100%
+  );
+}
