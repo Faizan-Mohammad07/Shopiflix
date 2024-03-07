@@ -246,8 +246,13 @@ td {
   font-size: 12px;
   margin-bottom: 10px;
 }
+.rating-tab {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #44444460;
+}
 .rating-tab-header {
-  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
   font-size: 24px;
   color: #096a00;
@@ -285,15 +290,12 @@ td {
 .ratebar {
   height: 11px;
   width: 200px;
-  background: rgb(217, 217, 217);
+  background: rgba(231, 231, 231, 0.605);
   border-radius: 5px 0 0 5px;
 }
 .rate-load {
   height: 100%;
   background: #096a00;
-}
-.lead-specific01 {
-  width: 80%;
   border-radius: 5px 0 0 5px;
 }
 .rate-number {
@@ -303,11 +305,16 @@ td {
   font-size: 12px;
 }
 .chart {
+  margin: 10px 20px 10px 20px;
+  padding: 11px;
   height: 60px;
   width: 60px;
-  padding: 11px;
-  margin: 50px;
   border-radius: 50%;
+}
+.chart-title {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
 }
 .inner-chart {
   height: 100%;
@@ -318,10 +325,4 @@ td {
   align-items: center;
   justify-content: center;
   font-size: 24px;
-}
-.val1 {
-  background-image: conic-gradient(
-    rgb(0, 126, 11) 0% 80%,
-    rgb(217, 217, 217) 80% 100%
-  );
 }

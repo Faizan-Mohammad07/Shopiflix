@@ -1,0 +1,41 @@
+.val1 {
+  background-image: conic-gradient(
+    rgb(0, 126, 11) 0% 80%,
+    rgba(231, 231, 231, 0.605) 80% 100%
+  );
+}
+.val2 {
+  background-image: conic-gradient(
+    rgb(0, 126, 11) 0% 78%,
+    rgba(231, 231, 231, 0.605) 78% 100%
+  );
+}
+.val3 {
+  background-image: conic-gradient(
+    rgb(0, 126, 11) 0% 86%,
+    rgba(231, 231, 231, 0.605) 86% 100%
+  );
+}
+.val4 {
+  background-image: conic-gradient(
+    rgb(0, 126, 11) 0% 82%,
+    rgba(231, 231, 231, 0.605) 82% 100%
+  );
+}
+.lead-specific01 {
+  width: 14%;
+  background: rgba(49, 49, 49, 0.793);
+}
+.lead-specific02 {
+  width: 5%;
+  background: #ead0b1;
+}
+.lead-specific03 {
+  width: 13%;
+}
+.lead-specific04 {
+  width: 46%;
+}
+.lead-specific05 {
+  width: 100%;
+}
