@@ -18,6 +18,10 @@ a {
   font-weight: inherit;
   color: inherit;
 }
+.verified-account-icon {
+  height: 16px;
+  width: auto;
+}
 .header {
   top: 0;
   position: sticky;
@@ -268,4 +272,59 @@ input {
   font-size: 14px;
   display: flex;
   align-items: center;
+}
+.review-box {
+  margin: 50px 200px 0 300px;
+}
+.user-review {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.user-review-id {
+  margin-bottom: 5px;
+  display: flex;
+}
+.user-review-profile {
+  margin-right: 10px;
+  height: 45px;
+  width: 45px;
+}
+.user-profile-pic {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.user-review-name {
+  color: #096a00;
+}
+.user-review-nation {
+  margin-top: 3px;
+  height: 20px;
+  width: fit-content;
+}
+.user-review-nation-pic {
+  height: 100%;
+  width: auto;
+}
+.user-review-id ~ div {
+  margin-left: 55px;
+}
+.user-review-title {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.user-review-content {
+  font-size: 14px;
+}
+.review-hr {
+  margin: 20px 0 10px 0;
+  height: 1px;
+  background: #44444460;
+  border: none;
+}
+.review-more-link {
+  padding: 10px 0 10px 65px;
+  color: #096a00;
+  font-size: 18px;
 }
