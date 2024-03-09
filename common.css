@@ -295,6 +295,7 @@ input {
   border-radius: 50%;
 }
 .user-review-name {
+  width: 140px;
   color: #096a00;
 }
 .user-review-nation {
@@ -306,6 +307,14 @@ input {
   height: 100%;
   width: auto;
 }
+.follow-user-button {
+  margin: 10px 0 0 700px;
+  padding: 5px 7px;
+  height: fit-content;
+  background: #096a00;
+  color: white;
+  border-radius: 5px;
+}
 .user-review-id ~ div {
   margin-left: 55px;
 }
@@ -313,6 +322,20 @@ input {
   margin-bottom: 5px;
   font-size: 18px;
   font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.react-review {
+  color: #848484;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.react-review-icon {
+  margin: 0 5px 0 25px;
+  height: 16px;
+  width: auto;
 }
 .user-review-content {
   font-size: 14px;
