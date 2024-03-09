@@ -1,0 +1,57 @@
+.user-profile-display {
+  display: flex;
+  justify-content: center;
+}
+.user-profile-box {
+  width: 800px;
+  background: rgba(0, 0, 0, 0.547);
+}
+.wall-pic {
+  height: 310px;
+  background: url(https://images.pexels.com/photos/2907578/pexels-photo-2907578.jpeg?cs=srgb&dl=pexels-tayyab-khan-2907578.jpg&fm=jpg);
+  background-position-y: center;
+  background-size: cover;
+  border: 1px solid #272727;
+  border-top: none;
+  border-bottom: none;
+  display: flex;
+  align-items: flex-end;
+}
+.white-bar {
+  height: 60px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.256);
+  backdrop-filter: blur(2px);
+  border-bottom: 1px solid #272727;
+}
+.user-profile-header {
+  position: relative;
+  height: 165px;
+  background: #ead0b1;
+  display: flex;
+  align-items: baseline;
+  border: 1px solid #272727;
+  border-top: none;
+}
+.user-profile-picture {
+  margin: 15px;
+  bottom: 0;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+}
+.user-profile {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #272727;
+  border-radius: 50%;
+}
+.user-profile-title {
+  margin-left: 220px;
+  padding: 20px;
+}
+.user-profile-name {
+  font-size: 45px;
+  display: flex;
+  align-items: flex-start;
+}
