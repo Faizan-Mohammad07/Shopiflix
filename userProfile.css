@@ -4,7 +4,6 @@
 }
 .user-profile-box {
   width: 800px;
-  background: rgba(0, 0, 0, 0.547);
 }
 .wall-pic {
   height: 310px;
@@ -18,11 +17,19 @@
   align-items: flex-end;
 }
 .white-bar {
-  height: 60px;
+  padding: 20px;
+  height: 20px;
   width: 100%;
   background: rgba(255, 255, 255, 0.256);
   backdrop-filter: blur(2px);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
   border-bottom: 1px solid #272727;
+}
+.user-review-nation {
+  margin-left: 10px;
 }
 .user-profile-header {
   position: relative;
@@ -30,8 +37,6 @@
   background: #ead0b1;
   display: flex;
   align-items: baseline;
-  border: 1px solid #272727;
-  border-top: none;
 }
 .user-profile-picture {
   margin: 15px;
@@ -54,4 +59,79 @@
   font-size: 45px;
   display: flex;
   align-items: flex-start;
+}
+.follow-user-button {
+  margin: 20px 0 0 0;
+  width: fit-content;
+}
+.status-bar {
+  margin-top: 10px;
+  padding: 15px;
+  background: #ead0b1;
+  display: flex;
+  align-items: center;
+}
+.status-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+.status-count {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.status-box > a {
+  color: #096a00;
+}
+.user-all-box {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #44444460;
+}
+.user-all-title {
+  color: #096a00;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.user-all-review-card {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #44444460;
+  border-radius: 5px;
+}
+.review-card-title {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card-product-info {
+  margin-top: 20px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-like {
+  display: flex;
+  align-items: center;
+}
+.react-review-icon {
+  margin: 0 5px 0 10px;
+}
+.card-product-picture {
+  padding: 5px;
+  height: auto;
+  width: 100px;
+  border: 1px solid #44444460;
+  border-radius: 5px;
+}
+.card-product-picture:hover {
+  box-shadow: 0px 0px 5px 1px #44444460;
+}
+.card-product-pic {
+  width: 100%;
 }
