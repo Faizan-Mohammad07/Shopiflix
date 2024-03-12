@@ -17,5 +17,45 @@
   transition: 0.2s;
 }
 .rating-tab-display {
-  margin: 20px 0 0 450px;
+  margin: 20px 0 0 300px;
+}
+.page-tab {
+  margin: 20px 0 20px 300px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.page-count {
+  margin-right: 100px;
+}
+.page-number-box {
+  margin-left: 100px;
+  padding: 0 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.page-number-element {
+  padding: 7px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-number-element:hover {
+  color: #096a00;
+}
+.active-page {
+  background: #096a00;
+  color: white;
+}
+.active-page:hover {
+  color: white;
+}
+.page-next-button {
+  margin-left: 20px;
+  padding: 5px;
+  color: #096a00;
 }
