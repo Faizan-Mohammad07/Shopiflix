@@ -1,0 +1,21 @@
+.review-filter-navbar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #44444460;
+}
+.review-navbar-element {
+  padding: 10px 10px 20px 10px;
+  font-size: 14px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+.active,
+.review-navbar-element:hover {
+  color: #096a00;
+  border-bottom: 3px solid #096a00;
+  transition: 0.2s;
+}
+.rating-tab-display {
+  margin: 20px 0 0 450px;
+}
