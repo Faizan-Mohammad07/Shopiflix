@@ -65,7 +65,7 @@
   width: fit-content;
 }
 .status-bar {
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 15px;
   background: #ead0b1;
   display: flex;
@@ -87,15 +87,19 @@
   color: #096a00;
 }
 .user-all-box {
-  margin-top: 10px;
+  margin: 20px 0;
   padding: 10px;
   border: 1px solid #44444460;
 }
 .user-all-title {
+  margin-bottom: 20px;
   color: #096a00;
   font-size: 18px;
   display: flex;
   justify-content: center;
+}
+.user-all-display {
+  display: flex;
 }
 .user-all-review-card {
   margin: 5px;

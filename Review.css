@@ -17,10 +17,10 @@
   transition: 0.2s;
 }
 .rating-tab-display {
-  margin: 20px 0 0 300px;
+  margin: 50px 220px 0 320px;
 }
 .page-tab {
-  margin: 20px 0 20px 300px;
+  margin: 50px 220px 0 320px;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -58,4 +58,7 @@
   margin-left: 20px;
   padding: 5px;
   color: #096a00;
+}
+.review-box {
+  margin: 50px 220px 0 320px;
 }
