@@ -1,3 +1,6 @@
+.review-box {
+  margin: 50px 220px 0 320px;
+}
 .review-filter-navbar {
   margin-top: 10px;
   display: flex;
@@ -20,7 +23,7 @@
   margin: 50px 220px 0 320px;
 }
 .page-tab {
-  margin: 50px 220px 0 320px;
+  margin: 20px 220px 0 320px;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -59,6 +62,22 @@
   padding: 5px;
   color: #096a00;
 }
-.review-box {
-  margin: 50px 220px 0 320px;
+.review-page-pic {
+  margin-left: 90px;
+  padding: 5px;
+  height: 130px;
+  width: auto;
+  border: 1px solid #44444460;
+  border-radius: 5px;
+}
+.review-page-pic:hover {
+  box-shadow: 0 0 5px 1px #44444460;
+}
+.review-page-img {
+  height: 100%;
+  width: auto;
+}
+.review-page-title {
+  margin: 20px 220px 0 320px;
+  font-size: 20px;
 }
